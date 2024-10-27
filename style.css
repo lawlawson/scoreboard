@@ -53,3 +53,16 @@ ol {
   height: 100vh;
   margin: 0;
 }
+
+.scoreboard {
+  display: flex;
+  background-color: #1b2449;
+  margin: 0 auto;
+  padding: 100px 300px;
+}
+
+.team-home,
+.team-guest p {
+  color: #fff;
+  text-transform: uppercase;
+}
