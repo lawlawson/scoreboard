@@ -44,7 +44,18 @@ ol {
   list-style: none;
 }
 
+/* Fonts */
+
+@font-face {
+  font-family: CursedTimerFont;
+  src: url(/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+}
+
 /* Styling for Scoreboard */
+
+body {
+  font-family: 'CursedTimerFont', sans-serif;
+}
 
 .container {
   display: flex;
