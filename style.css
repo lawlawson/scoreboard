@@ -55,6 +55,7 @@ ol {
 
 body {
   font-family: 'CursedTimerFont', sans-serif;
+  font-size: 30px;
 }
 
 .container {
@@ -70,10 +71,26 @@ body {
   background-color: #1b2449;
   margin: 0 auto;
   padding: 100px 300px;
+  text-align: center;
+}
+
+.home {
+  margin-right: 20px;
+}
+
+.home,
+.guest {
+  border: 2px solid white;
 }
 
 .team-home,
 .team-guest p {
   color: #fff;
   text-transform: uppercase;
+}
+
+.score p {
+  background-color: black;
+  color: red;
+  margin: 20px 0;
 }
