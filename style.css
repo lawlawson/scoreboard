@@ -80,7 +80,7 @@ body {
 
 .home,
 .guest {
-  border: 2px solid white;
+  width: 200px;
 }
 
 .team-home,
@@ -93,7 +93,7 @@ body {
 
 .score {
   height: 70px;
-  width: 90px;
+  width: 100px;
   margin: 0 auto;
 }
 
@@ -101,4 +101,17 @@ body {
   background-color: black;
   color: red;
   margin: 20px 0;
+}
+
+.points {
+  cursor: pointer;
+}
+
+.buttons {
+  color: #9aabd8;
+  border: 1px solid #9aabd8;
+  background-color: transparent;
+  font-size: 9px;
+  border-radius: 5px;
+  padding: 7px;
 }
