@@ -87,6 +87,14 @@ body {
 .team-guest p {
   color: #fff;
   text-transform: uppercase;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.score {
+  height: 70px;
+  width: 90px;
+  margin: 0 auto;
 }
 
 .score p {
