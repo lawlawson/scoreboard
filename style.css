@@ -103,12 +103,9 @@ body {
   margin: 20px 0;
 }
 
-.points {
-  cursor: pointer;
-}
-
 .buttons {
   color: #9aabd8;
+  cursor: pointer;
   border: 1px solid #9aabd8;
   background-color: transparent;
   font-size: 9px;
